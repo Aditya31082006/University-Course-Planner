@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Box, CssBaseline, Snackbar, Alert, Typography, Button } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { getAppTheme } from './theme/theme';
-import { useCourses } from './context/CourseContext.jsx';
+import { useCourses } from './Context/CourseContext.jsx';
 import Navbar from './Components/Navbar.jsx';
 import Sidebar, { SIDEBAR_WIDTH } from './Components/Sidebar.jsx';
 import Dashboard from './Pages/Dashboard.jsx';

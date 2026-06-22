@@ -10,7 +10,7 @@ import {
   STORAGE_KEYS,
   loadFromStorage,
   saveToStorage,
-} from '../utils/storage';
+} from '../utils/Storage';
 import { detectAllConflicts } from '../utils/conflictDetection';
 import {
   DEFAULT_GPA_TARGET,
